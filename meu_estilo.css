@@ -1,0 +1,96 @@
+/* Configurações da Página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Cabeçalho */
+#nome {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.infos {
+    text-align: center;
+    margin: 5px 0;
+    color: #555;
+}
+
+.separador {
+    margin: 0 10px; /* Espaço ao redor das barrinhas | */
+    color: #ccc;
+}
+
+/* Marca-texto e Destaques */
+.marca-texto {
+    background-color: lightgray;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+.destaque {
+    background-color: #e0e0e0;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+h3 {
+    margin-top: 30px;
+    border-bottom: 2px solid #f4f4f4; /* Uma linha sutil embaixo dos títulos */
+    padding-bottom: 5px;
+    display: inline-block; /* Faz a linha ficar só do tamanho do texto */
+}
+
+/* Links Sociais (LinkedIn, GitHub, Zap) */
+.link-social {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link-social:hover {
+    color: #004471;
+    text-decoration: underline;
+}
+
+/* --- ESTILO DAS SKILLS (AS ETIQUETAS) --- */
+.skills-list {
+    list-style-type: none; /* Tira as bolinhas */
+    padding: 0;
+    margin-top: 10px;
+}
+
+.skills-list li {
+    display: inline-block; /* Um ao lado do outro */
+    background-color: #f0f8ff; /* Azul bem clarinho */
+    color: #004471;
+    padding: 8px 15px;
+    margin: 5px 5px 5px 0; /* Espacinho entre elas */
+    border-radius: 20px; /* Borda redonda */
+    font-size: 0.9em;
+    font-weight: 500;
+    border: 1px solid #cce7ff;
+}
+
+.skills-list li:hover {
+    background-color: #dbeafe; /* Muda de cor levemente ao passar o mouse */
+    cursor: default;
+}
+
+.skills-list i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto na skill */
+}
